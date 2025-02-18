@@ -10,11 +10,11 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a string: ");
+        System.out.print("Опаньки! Щось почалося,введіть рядочок: ");
         String original = scanner.nextLine();
         String reversed = reverseString(original);
-        System.out.println("Original: " + original);
-        System.out.println("Reversed: " + reversed);
+        System.out.println("Оригінальчик тутоньки: " + original);
+        System.out.println("Змінений рядочок ось тутоньки: " + reversed);
         scanner.close();
     }
 }
